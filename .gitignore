@@ -1,0 +1,6 @@
+node_modules/
+playwright-report/
+playwright/**/node_modules/
+*.log
+playwright/*.txt
+playwright/*.json
