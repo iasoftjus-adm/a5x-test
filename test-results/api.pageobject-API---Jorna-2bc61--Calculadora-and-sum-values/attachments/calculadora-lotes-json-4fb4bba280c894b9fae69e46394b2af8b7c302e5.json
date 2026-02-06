@@ -1,0 +1,125 @@
+{
+  "endpointUsed": "/api/editais",
+  "total": 25234167.824,
+  "findings": [
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 54.827,
+      "raw": "54,827",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 530.057,
+      "raw": "530,057",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 8861.362,
+      "raw": "8.861,362",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 75647.621,
+      "raw": "75.647,621",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 82073.398,
+      "raw": "82.073,398",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 113187.844,
+      "raw": "113.187,844",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 131947.489,
+      "raw": "131.947,489",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 338775.597,
+      "raw": "338.775,597",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 438068.856,
+      "raw": "438.068,856",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 670979.299,
+      "raw": "670.979,299",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 754.5,
+      "raw": "754.500",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 1093378.514,
+      "raw": "1.093.378,514",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 3227693.615,
+      "raw": "3.227.693,615",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 3672365.636,
+      "raw": "3.672.365,636",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 4232902.781,
+      "raw": "4.232.902,781",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 4716534.294,
+      "raw": "4.716.534,294",
+      "source": "ui"
+    },
+    {
+      "edital": null,
+      "lote": null,
+      "valor": 6430412.134,
+      "raw": "6.430.412,134",
+      "source": "ui"
+    }
+  ]
+}
