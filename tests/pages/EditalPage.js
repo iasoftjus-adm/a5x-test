@@ -54,6 +54,22 @@ class EditalPage {
         }
         return reports;
     }
+
+    async getDeadlineText() {
+        // Try several selectors/heuristics to find a 'Data Limite' label and return its text
+        const patterns = ['text=Data Limite', 'text=Data limite', 'text=Data', 'text=Prazo', 'text=Data Limitação'];
+        for (const p of patterns) {
+            const loc = this.page.locator(p).first();
+            if (await loc.count() > 0) {
+                const txt = await loc.textContent().catch(() => '');
+                if (txt && txt.trim()) return txt.trim();
+            }
+        }
+
+        // fallback: search for 'Data' labels near the opened edital (within modal or details)
+        const text = await this.page.locator(':text("Data Limite")').first().textContent().catch(() => '');
+        return text ? text.trim() : '';
+    }
 }
 
 module.exports = EditalPage;
